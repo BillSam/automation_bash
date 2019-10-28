@@ -11,7 +11,7 @@ if [ $file != repo_update.sh ]; then
   echo "me muevo al dir $file"
   cd $file
 
-  echo "actualizo"
+  echo "actualizando down"
   git pull
 
   echo "salgo del dir"
